@@ -1,0 +1,32 @@
+{
+  "name": "cloudant-streams",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterpoliwoda/cloudant-streams.git"
+  },
+  "author": "Peter Poliwoda <contact@peterpoliwoda.me> (http://peterpoliwoda.me)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/peterpoliwoda/cloudant-streams/issues"
+  },
+  "homepage": "https://github.com/peterpoliwoda/cloudant-streams#readme",
+  "dependencies": {
+    "@cloudant/cloudant": "^4.2.4",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.0.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.20.0",
+    "prettier": "2.0.5"
+  }
+}
