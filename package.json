@@ -19,7 +19,7 @@
   "homepage": "https://github.com/peterpoliwoda/cloudant-streams#readme",
   "dependencies": {
     "@cloudant/cloudant": "^4.2.4",
-    "express": "^4.17.1"
+    "express": "^4.17.3"
   },
   "devDependencies": {
     "eslint": "^7.0.0",
